@@ -230,7 +230,7 @@ public class DecimalEditText extends AppCompatEditText {
 
 		removeTextChangedListener(textWatcher);
 		setText(current);
-		setSelection(pos);
+		// setSelection(pos);
 		addTextChangedListener(textWatcher);
 	}
 }
